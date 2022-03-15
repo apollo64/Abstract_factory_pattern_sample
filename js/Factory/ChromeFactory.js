@@ -3,15 +3,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const SafariButton_1 = __importDefault(require("../Button/SafariButton"));
-const SafariCheckbox_1 = __importDefault(require("../Checkbox/SafariCheckbox"));
+const ChromeButton_1 = __importDefault(require("../Button/ChromeButton"));
+const ChromeCheckbox_1 = __importDefault(require("../Checkbox/ChromeCheckbox"));
 class ChromeFactory {
     createButton() {
-        return new SafariButton_1.default();
+        return new ChromeButton_1.default();
     }
     ;
     createCheckbox() {
-        return new SafariCheckbox_1.default;
+        return new ChromeCheckbox_1.default;
     }
     ;
 }

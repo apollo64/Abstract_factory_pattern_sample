@@ -1,7 +1,7 @@
 import IButton from "../Button/IButton";
-import ChromeButton from "../Button/SafariButton";
+import ChromeButton from "../Button/ChromeButton";
 import ICheckbox from "../Checkbox/ICheckbox";
-import ChromeCheckbox from "../Checkbox/SafariCheckbox";
+import ChromeCheckbox from "../Checkbox/ChromeCheckbox";
 import IGUIFactory from "./IGUIFactory";
 
 

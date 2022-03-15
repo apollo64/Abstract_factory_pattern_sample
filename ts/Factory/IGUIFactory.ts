@@ -5,3 +5,4 @@ interface IGUIFactory {
     createButton() : IButton;
     createCheckbox(): ICheckbox; 
 }
+export default IGUIFactory;
